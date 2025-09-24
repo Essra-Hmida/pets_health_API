@@ -44,25 +44,3 @@ pip install -r requirements.txt
 # 4. Lancer l’API
 python app.py
 
----
-
-## 📡 Tester l’API avec Postman
-
-```bash
-# 🔗 Endpoint principal
-POST http://localhost:5000/predict_and_answer
-
-
-# Body (JSON) :
-
-{
-  "Espèce": "chien",
-  "Âge": 4,
-  "Poids": 13,
-  "Race": "Berger Allemand",
-  "Température": 39.2,
-  "Respiration": 26.2,
-  "Pulse": 127.2,
-  "Intensité_activité": 0,
-  "Score_sommeil": 5
-}
